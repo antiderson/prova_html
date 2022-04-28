@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins';
+    color: #fff
+}
+
+.home {
+    background-image: url(assets/fundo.png);
+}
+
+.logo {
+    margin-top: 60px;
+    height: 87px;
+    width: 418px;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.main p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.chaves {
+    margin-top: 30px;
+}
+
+.botaohome {
+    margin-top: 30px;
+}
+
+.bloco {
+    position: absolute;
+    width: 630px;
+    height: 710px;
+    background-color: #50B2Ea;
+}
+
+.section2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.retangle {
+    background-color: #50B2Ea;
+    height: max-content;
+    border: 4px solid #F2F2F2;
+    border-radius: 20px;
+    margin-right: 600px;
+    margin-top: 90px;
+    height: 430px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.encanador {
+    height: 430px;
+    margin-top: 90px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-top: 4px solid white;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 38px;
+}
+
+.teste {
+    margin-top: -100px;
+    margin-left: 535px;
+}
+
+.box {
+    background-color: #50B2Ea;
+    margin-top: 49px;
+    height: 61px;
+    width: 56px;
+    border-bottom: 2.5px solid white;
+    border-right: 2.5px solid white;
+    border-top: 2.5px solid white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box h1 {
+    color: #50B2Ea;
+}
+
+a {
+    text-decoration: none;
+}
+
+.listS {
+    background-image: url(assets/IMAGE\ TO\ DOWNLOAD.png);
+    width: 100%;
+    height: 390px;
+    font-weight: 700, bold;
+    font-size: 48px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.chaves2 {
+    margin-top: 50px;
+}
+
+.listS h1 {
+    padding-top: 30px;
+}
+
+.listInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+}
+
+.listInfo h2 {
+    font-family: 'Poppins';
+    font-weight: 700, bold;
+    font-size: 18px;
+    color: #50B2EA;
+    text-align: center;
+}
+
+.listInfo p {
+    font-family: 'Poppins';
+    font-weight: 400, normal;
+    font-size: 14px;
+    color: #19435A;
+    text-align: center;
+}
+
+.servicesB {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.testimonials{
+    background-color: #50B2EA;
+}
+
+.testimonials h1{
+    font-weight: 700,bold;
+    font-size: 48px;
+    text-align: center;
+}
+.chat{
+    padding-top: 25px;
+    margin: auto;
+    align-items: center;
+    margin-left: 4%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1{
+    font-weight: 700,bold;
+    font-size: 48px;
+    color: #50B2EA
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+input{
+    margin-top: 40px;
+    background-color: rgba(80,178,234,1);
+    border-radius: 40px;
+    height: 40px;
+    border: none;
+}
+
+.env{
+    background-color: rgba(80,178,234,1);
+    margin-top: 30px;
+    height: 40px;
+    width: 148px;
+    border-radius: 40px;
+    border: none;  
+    font-weight: 700,bold;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #ffff
+}
+
+footer{
+    background: #19435A;   
+}
+
+.footer h1{
+    color:#19435A
+}
